@@ -16,10 +16,13 @@
  */
 const sidebars = {
   tutorialSidebar: [
+    'intro',
     {
-      type: 'doc',
-      id: 'intro',
-      label: 'Project Setup Guide',
+      type: 'category',
+      label: 'Technical Details',
+      items: [
+        'technical-details/architecture',
+      ],
     },
   ],
 };
